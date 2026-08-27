@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Leonard Shindikwa - AI and Web Developer, Telecommunication Engineering student at Mbeya University of Science and Technology.">
+  <title>Leonard Shindikwa | AI & Web Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+<header class="header">
+  <nav class="navbar container">
+    <a class="logo" href="#home">Leonard<span>.</span></a>
+    <div class="nav-actions">
+      <button class="theme-toggle" id="theme-toggle" aria-label="Toggle theme"><i class="fas fa-moon"></i></button>
+      <button class="menu-toggle" id="menu-toggle" aria-label="Open menu"><i class="fas fa-bars"></i></button>
+    </div>
+    <ul class="nav-links" id="nav-links">
+      <li><a href="#home">Home</a></li><li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li><li><a href="#projects">Projects</a></li>
+      <li><a href="#education">Education</a></li><li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+<section class="hero" id="home">
+  <div class="container hero-grid">
+    <div class="hero-copy reveal">
+      <p class="eyebrow">HELLO, I'M</p>
+      <h1>Leonard <span>Shindikwa</span></h1>
+      <h2>AI/Machine Learning, <br>Web Developer, <br>Network Engineer.</h2>
+      <p class="hero-text">
+        A second-year Telecommunication Engineering student at Mbeya University
+        of Science and Technology, passionate about Artificial Intelligence,
+        Machine Learning, web development and practical technology solutions.
+      </p>
+      <div class="hero-buttons">
+        <a class="btn primary" href="#projects">View My Projects <i class="fas fa-arrow-right"></i></a>
+        <a class="btn outline" href="#contact">Contact Me</a>
+      </div>
+
+      <div class="socials">
+        <a href="https://github.com/leonardshindikwa11-tech" target="_blank" rel="noopener" aria-label="GitHub"><i class="fab fa-github"></i></a>
+        <a href="https://wa.me/255680325449" target="_blank" rel="noopener" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+        <a href="mailto:leonardshindikwa11@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+      </div>
+    </div>
+
+    <div class="profile-1 reveal">
+      <div class="profile-glow"></div>
+      <div class="profile-card">
+        <img src="images/profile.jpeg1" alt="Leonard Shindikwa">
+        <div class="profile-caption">
+          <strong>AI • Web • Telecom</strong>
+          <span>Building practical technology solutions.</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="about">
+  <div class="container">
+    <div class="section-heading"><p>ABOUT ME</p><h2>Technology, learning & problem solving</h2></div>
+    <div class="about-grid">
+      <div class="about-copy reveal">
+        <p><b>I am <b>Leonard Shindikwa,</b> a second-year Telecommunication Engineering student at Mbeya University of Science and Technology (MUST).</p>
+        <p><b>Interests combine telecommunications with web development, Artificial Intelligence and Machine Learning. I enjoy turning ideas into working systems that can solve real-world problems</b>.</p>
+        <p><b>I am continuously developing my programming, web development, Git/GitHub and AI skills through practical projects.</b></p>
+      </div>
+      <div class="facts reveal">
+        <div class="fact"><i class="fas fa-graduation-cap"></i><div><span>Education</span><strong>Telecommunication Engineering</strong></div></div>
+        <div class="fact"><i class="fas fa-university"></i><div><span>University</span><strong>Mbeya University of Science and Technology</strong></div></div>
+        <div class="fact"><i class="fas fa-layer-group"></i><div><span>Level</span><strong>Second Year</strong></div></div>
+        <div class="fact"><i class="fas fa-location-dot"></i><div><span>Location</span><strong>Tanzania</strong></div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section alt" id="skills">
+  <div class="container">
+    <div class="section-heading"><p>MY SKILLS</p><h2>Tools & technologies</h2></div>
+    <div class="skills-grid">
+      <article class="skill-card reveal"><i class="fab fa-python"></i><h3>Python</h3><p>Programming, automation, data processing and AI/ML projects.</p></article>
+      <article class="skill-card reveal"><i class="fab fa-js"></i><h3>JavaScript</h3><p>Interactive and dynamic web applications.</p></article>
+      <article class="skill-card reveal"><i class="fab fa-html5"></i><h3>HTML & CSS</h3><p>Responsive, modern and user-friendly web interfaces.</p></article>
+      <article class="skill-card reveal"><i class="fas fa-brain"></i><h3>AI & Machine Learning</h3><p>Predictive models, data analysis and intelligent systems.</p></article>
+      <article class="skill-card reveal"><i class="fab fa-git-alt"></i><h3>Git & GitHub</h3><p>Version control, repositories and project collaboration.</p></article>
+      <article class="skill-card reveal"><i class="fas fa-network-wired"></i><h3>Telecommunications</h3><p>Interest in communication systems, signals and networking.</p></article>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="projects">
+  <div class="container">
+    <div class="section-heading"><p>MY WORK</p><h2>Featured projects</h2></div>
+    <div class="projects-grid">
+      <article class="project-card reveal">
+        <div class="project-icon"><i class="fas fa-signal"></i></div>
+        <div><span class="tag">Web / Telecom</span><h3>Antenna Signal Detector</h3>
+          <p>A web-based concept for monitoring and visualizing antenna signal information such as signal strength, device and frequency.</p>
+          <div class="chips"><span>Python</span><span>Flask</span><span>HTML/CSS</span><span>JavaScript</span></div>
+          <a class="project-link" href="https://github.com/leonardshindikwa11-tech" target="_blank" rel="noopener">GitHub <i class="fas fa-arrow-up-right-from-square"></i></a>
+        </div>
+      </article>
+
+      <article class="project-card reveal">
+        <div class="project-icon"><i class="fas fa-chart-line"></i></div>
+        <div><span class="tag">Web / Business</span><h3>Business Management System</h3>
+          <p>A web system concept for managing sales, profit, customer debts, payments and daily business activities.</p>
+          <div class="chips"><span>JavaScript</span><span>Node.js</span><span>SQLite</span><span>HTML/CSS</span></div>
+          <a class="project-link" href="https://github.com/leonardshindikwa11-tech" target="_blank" rel="noopener">GitHub <i class="fas fa-arrow-up-right-from-square"></i></a>
+        </div>
+      </article>
+
+      <article class="project-card reveal">
+        <div class="project-icon"><i class="fas fa-brain"></i></div>
+        <div><span class="tag">Machine Learning</span><h3>Geological Properties Prediction</h3>
+          <p>Machine learning research focused on predicting geological properties along horizontal wellbores using available well and geological data.</p>
+          <div class="chips"><span>Python</span><span>ML</span><span>Data Analysis</span></div>
+          <a class="project-link" href="https://github.com/leonardshindikwa11-tech" target="_blank" rel="noopener">GitHub <i class="fas fa-arrow-up-right-from-square"></i></a>
+        </div>
+      </article>
+
+      <article class="project-card reveal">
+        <div class="project-icon"><i class="fas fa-microchip"></i></div>
+        <div><span class="tag">Engineering</span><h3>Engineering Technology Projects</h3>
+          <p><strong><em>Practical learning projects connecting electronics, telecommunications, programming and modern digital technologies.</em> </strong></p>
+          <div class="chips"><span>Telecom</span><span>Electronics</span><span>Programming</span></div>
+          <a class="project-link" href="https://github.com/leonardshindikwa11-tech" target="_blank" rel="noopener">GitHub <i class="fas fa-arrow-up-right-from-square"></i></a>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="section alt" id="education">
+  <div class="container">
+    <div class="section-heading"><p>MY JOURNEY</p><h2>Education</h2></div>
+    <div class="timeline">
+      <div class="timeline-item reveal"><span class="dot"></span><div><small>Current • Second Year</small><h3>BSc in Telecommunication Engineering</h3><p>Mbeya University of Science and Technology (MUST), Tanzania.</p></div></div>
+      <div class="timeline-item reveal"><span class="dot"></span><div><small>Focus Areas</small><h3>AI, Web Development & Telecommunications</h3><p>Building practical skills through software, AI/ML and engineering projects.</p></div></div>
+    </div>
+  </div>
+</section>
+
+<section class="section contact-section" id="contact">
+  <div class="container">
+    <div class="section-heading"><p>CONTACT</p><h2>Let's connect</h2></div>
+    <div class="contact-grid">
+      <div class="contact-copy reveal">
+        <h3>I have an idea</h3>
+        <p>I'm open to learning, collaboration, technology projects and opportunities related to AI/Machine Learning, Web development and Network Engineer.</p>
+        <a class="contact-line" href="tel:+255680325449"><i class="fas fa-phone"></i><span><small>Phone</small>+255680 325 449</span></a>
+        <a class="contact-line" href="https://wa.me/255680325449" target="_blank" rel="noopener"><i class="fab fa-whatsapp"></i><span><small>WhatsApp</small>Chat with me</span></a>
+        <a class="contact-line" href="https://github.com/leonardshindikwa11-tech" target="_blank" rel="noopener"><i class="fab fa-github"></i><span><small>GitHub</small>leonardshindikwa11-tech</span></a>
+        <a class="contact-line" href="mailto:leonardshindikwa11@gmail.com"><i class="fas fa-envelope"></i><span><small>Email</small>Add your email here</span></a>
+      </div>
+      <form class="contact-form reveal" id="contact-form">
+        <label>Your Name<input id="name" required placeholder="name"></label>
+        <label>Your Email<input id="email" type="email" required placeholder="your-email@example.com"></label>
+        <label>Message<textarea id="message" rows="6" required placeholder="Write your message..."></textarea></label>
+        <button class="btn primary" type="submit">Prepare Email <i class="fas fa-paper-plane"></i></button>
+        <p id="form-message"></p>
+      </form>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer class="footer">
+  <div class="container footer-inner">
+    <div><strong>Leonard<span>.</span></strong><p>AI & Web Developer | Telecommunication Engineering Student</p></div>
+    <div class="footer-links">
+      <a href="https://github.com/leonardshindikwa11-tech" target="_blank" rel="noopener"><i class="fab fa-github"></i></a>
+      <a href="https://wa.me/255680325449" target="_blank" rel="noopener"><i class="fab fa-whatsapp"></i></a>
+    </div>
+  </div>
+  <div class="copyright">© <span id="year"></span> Leonard Shindikwa. All rights reserved.</div>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
